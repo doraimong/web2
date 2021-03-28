@@ -19,27 +19,77 @@
 
     </aside>
   </div-->
+  <style media="screen">
+  .dropdown:hover .dropdown-menu {
+        display: block;
+        margin-top: 0;
+  }
+  </style>
+  <div class="top-bar">
+
+
+    <div class="container">
+
+      <div class="row">
+        <div class="col-10">
+        </div>
+        <div class="col-auto t">
+          <a href="#">로그인</a>
+          <a href="#">회원가입</a>
+          <a href="#">고객센터</a>
+        </div>
+      </div>
+
+    </div>
+
+    </div>
     <!--navbar-->
     <div class="container">
 
       <header class="blog-header py-3 border-bottom ">
         <div class="row flex-nowrap justify-content-between align-items-center">
-          <div class="col-4 text-center fs-2">
+          <div class="col-1">
+            <div class="dropdown">
+              <!--button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                카테고리(사진필)
+              </button-->
+              <img src="images/category.jpg" alt="" class="">
+              <!--div class="navbar-toggler"></div-->
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item" href="#">패션의류/잡화</a></li>
+                <li><a class="dropdown-item" href="#">뷰티</a></li>
+                <li><a class="dropdown-item" href="#">식품</a></li>
+                <li><a class="dropdown-item" href="#">주방용품</a></li>
+                <li><a class="dropdown-item" href="#">생활용품</a></li>
+                <li><a class="dropdown-item" href="#">인테리어</a></li>
+                <li><a class="dropdown-item" href="#">가전디지털</a></li>
+                <li><a class="dropdown-item" href="#">스포츠/레저</a></li>
+                <li><a class="dropdown-item" href="#">도서/음반</a></li>
+                <li><a class="dropdown-item" href="#">문구/오피스</a></li>
+                <li><a class="dropdown-item" href="#">반려동물관련</a></li>
+                <li><a class="dropdown-item" href="#">헬스/건강식품</a></li>
+                <li><a class="dropdown-item" href="#">기1</a></li>
+              </ul>
+            </div>
+
           </div>
-          <div class="col-4 text-center fs-2">
+          <div class="col-2 ms-3 fs-2">
             <a class="blog-header-logo text-dark  fw-bold" href="#">Dong-A 장터</a>
           </div>
-          <div class="col-4 d-flex justify-content-end align-items-center">
+          <div class="col-6">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          </div>
+          <div class="col-2 d-flex justify-content-end align-items-center">
             <a class="link-secondary" href="https://getbootstrap.com/docs/5.0/examples/blog/#" aria-label="Search">
               <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="mx-3" role="img" viewBox="0 0 24 24"><title>Search</title><circle cx="10.5" cy="10.5" r="7.5"></circle><path d="M21 21l-5.2-5.2"></path></svg>
             </a>
-            <a class="btn btn-sm btn-outline-secondary me-1" href="#">Sign in</a>
-            <a class="btn btn-sm btn-outline-secondary" href="#">Sign up</a>
+            <a class="btn btn-sm btn-outline-secondary me-1" href="#">My(아이콘)</a>
+            <a class="btn btn-sm btn-outline-secondary" href="#">장바구니(아이)</a>
           </div>
         </div>
       </header>
 
-      <div class="nav-scroller py-1 mb-2 ">
+      <!--div class="nav-scroller py-1 mb-2 ">
         <nav class="nav d-flex justify-content-between">
           <a class="p-2 link-secondary" href="#">Book</a>
           <a class="p-2 link-secondary" href="/#">Tech</a>
@@ -48,11 +98,11 @@
           <a class="p-2 link-secondary" href="#">Culture</a>
           <a class="p-2 link-secondary" href="/#">Etc</a>
         </nav>
-      </div>
+      </div-->
 
     </div>
 
-    <div class="container">
+    <div class="container-fluid">
 
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel ">
           <div class="carousel-inner height-100" style=" width:100%; height: 500px !important;">
